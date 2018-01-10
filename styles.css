@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+
+html {
+  background-color: gray;
+}
+header{
+  width: 100%
+}
+header nav.horizontal{
+ width:100%;
+}
+header nav.horizontal li {
+  background-color: rgb(29, 0, 255);
+  display: block;
+  font-family: times new roman, sans-serif;
+  float:left;
+  width: 20%;
+}
+header nav.horizontal li a {
+  color: white;
+  display: block;
+  font-size: 0.8em;
+  height: 50px;
+  letter-spacing: .5em;
+  line-height: 50px;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+}
+
+h1{
+   color: blue;
+}
+
+h2 {
+  color:blue;
+}
