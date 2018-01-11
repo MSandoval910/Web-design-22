@@ -8,4 +8,25 @@
 ul, li, a {
   text-decoration: none;
   list-style-type: none;
+  letter-spacing: 2px;
+  color: white;
+  margin-left: 0px;
+}
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+}
+li a.active {
+  background-color: white;
+  color: gray;
+}
+li a:hover:not(.active) {
+  background-color: white;
+  color: gray;
+}
+article.image {
+  display: block;
+  width: 75px;
+
 }
