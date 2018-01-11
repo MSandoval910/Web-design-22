@@ -64,4 +64,5 @@ div#left nav li {
   color: black;
   font-size: 2em;
   margin: 20%;
+  border-bottom: 1px black;
 }
