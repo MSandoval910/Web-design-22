@@ -1,32 +1,30 @@
 @charset "UTF-8";
-
-
-
 html {
   background-color: black;
 }
 
-body{
-  top: 15%;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: white;
+body {
+  min-height: 100%;
+  min-width: 320px;
+  max-width: 100%;
 }
 
-header{
+header {
   width: 100%
 }
-header nav.horizontal{
- width:100%;
+
+header nav.horizontal {
+  width: 100%;
 }
+
 header nav.horizontal li {
   background-color: rgb(29, 0, 255);
   display: block;
   font-family: times new roman, sans-serif;
-  float:left;
+  float: left;
   width: 20%;
 }
+
 header nav.horizontal li a {
   color: white;
   display: block;
@@ -39,15 +37,32 @@ header nav.horizontal li a {
   text-decoration: none;
 }
 
-h1{
-   color: blue;
+h1 {
+  color: blue;
 }
 
 h2 {
-  color:blue;
+  color: blue;
 }
+
 img {
   display: block;
   width: 10%;
   height: auto;
+}
+
+div#left {
+  float: left;
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  bottom: 0;
+  background-color: white;
+}
+
+div#left nav li {
+  color: black;
+  font-size: 2em;
+  margin: 20%;
+  border-bottom: 1px black;
 }
