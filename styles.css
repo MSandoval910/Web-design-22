@@ -61,8 +61,13 @@ div#left {
 }
 
 div#left nav li {
+  width: 100%;
   color: black;
   font-size: 2em;
   margin: 20%;
   border-bottom: 1px black;
+}
+
+#left nav li a {
+  text-align: center;
 }
