@@ -9,32 +9,10 @@ body {
   max-width: 100%;
 }
 
+/* This is the styles for the body that gives the body the size that we tell it to give this will help with the setup of the side nav bar */
+
 header {
   width: 100%
-}
-
-header nav.horizontal {
-  width: 100%;
-}
-
-header nav.horizontal li {
-  background-color: rgb(29, 0, 255);
-  display: block;
-  font-family: times new roman, sans-serif;
-  float: left;
-  width: 20%;
-}
-
-header nav.horizontal li a {
-  color: white;
-  display: block;
-  font-size: 0.8em;
-  height: 50px;
-  letter-spacing: .5em;
-  line-height: 50px;
-  text-align: center;
-  width: 100%;
-  text-decoration: none;
 }
 
 h1 {
@@ -54,15 +32,46 @@ img {
 div#left {
   float: left;
   position: fixed;
-  width: 250px;
+  width: 33%;
   height: 100%;
   bottom: 0;
-  background-color: white;
+  background-color: black;
+  border-right: 3px solid Cyan;
 }
 
+/* This is the style rule that will make the nav bar be n the left of the page and it will be fixed so that it would stay in page while the page is scrolled up or down, and it would add a color to the nav bar */
+
 div#left nav li {
-  color: black;
-  font-size: 2em;
+  font-size: 1.5em;
   margin: 20%;
-  border-bottom: 1px black;
+  padding: 10px 20px;
+  text-align: center;
+  border-bottom: 1px outset cyan;
 }
+
+/* This will change position of the li that will giv it more detail. */
+div#left nav li:hover{
+ box-shadow:0px 0px 5px cyan;
+ text-shadow: 0px 0px 1px black;
+ border-radius: 5px;
+ background-color: #0c2528;
+ /* This will make the li change and will activate the shadow and will change the radius of the box */
+}
+a{
+  color:gray;
+  text-align: center;
+}
+/* This will change the color of the text and will make it center to the page */
+a#active {
+  animation: trans 10s infinite;
+}
+/* This will make the color of the page you are on with a orange fade */
+@keyframes trans {
+  0% {color:orange}
+  60% {color:gray}
+  100% {color:orange}
+}
+a:hover, a:active{
+  color: cyan;
+}
+/* When hover the olor if the text will change to a cyan color when you hover over the text */
