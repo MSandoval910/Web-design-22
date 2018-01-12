@@ -21,11 +21,13 @@ h2 {
 }
 p{
   color: white;
+  font-family: Times new roman, sans, sans-serif;
   margin-left: 360px;
   text-align: center;
   letter-spacing: 2px;
-  line-height: 25px;
+  line-height: 27px;
 }
+
 * {
   margin: 0;
   padding: 0;
