@@ -73,3 +73,6 @@ li a:hover:not(.active) {
   background-color: white;
   color: gray;
 }
+#textarea {
+  float: right;
+}
