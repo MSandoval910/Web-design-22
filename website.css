@@ -4,6 +4,17 @@
   padding: 0;
   border: 0;
 }
+div#left {
+  float: left;
+  position: fixed;
+  width: 25%;
+  height: 100%;
+  bottom: 0;
+  background-color:  gray;
+  text-decoration: none;
+}
+
+
 
 ul, li, a {
   text-decoration: none;
