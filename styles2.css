@@ -10,7 +10,7 @@ body {
 }
 h1 {
   margin-left: 560px;
-  color: blue;
+  color: gray;
   letter-spacing: 2px;
 }
 h2 {
@@ -73,4 +73,10 @@ li a.active {
 li a:hover:not(.active) {
   background-color: white;
   color: gray;
+}
+td {
+  color: white;
+}
+table {
+  margin-left: 450px;
 }
